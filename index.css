@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  gap: 0;
+}
+
+.imgMenu {
+  display: flex;
+  background-image: url(/img/fundo.svg);
+  max-width: 1920px;
+  height: 1080px;
+}
+
+.menu {
+  width: 1920px;
+  height: 60px;
+  background-color: black;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+  -moz-opacity: 0.5;
+  -webkit-opacity: 0.3;
+}
+
+.itensMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.itensMenu nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 0.3em;
+}
+
+a img{
+  max-width: 150px;
+  max-height: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1920px;
+  height: 500px;
+  background-color: black;
+}
+
+.imgIntro1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 450px;
+}
+
+.oooIntro1{
+  margin: 2em;
+}
+
+.intro1 p {
+  color: white;
+  margin-bottom: 0; /* remove espaço abaixo do parágrafo */
+}
+
+.intro1 span {
+  color: white;
+  font-size: 96px;
+  box-sizing: border-box;
+  margin-top: -50; /* remove espaço acima do span */
+}
